@@ -54,7 +54,7 @@ class InputRange extends HTMLElement {
           display: block; 
           width: 100%;
           padding: 0.75rem;
-          background-color: #85aff2ff;
+          background-color: #72cde1ff;
           color: white;
           border: none;
           border-radius: 6px;
@@ -65,7 +65,7 @@ class InputRange extends HTMLElement {
         }
         /* Estilo del botón al pasar el mouse */
         button:hover {
-          background-color: #829fdeff;
+          background-color: #5bc7c7ff;
         }
       </style>
       <h2>Selecciona un rango</h2>
