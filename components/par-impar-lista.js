@@ -61,7 +61,7 @@ class ParImparLista extends HTMLElement {
       <ul id="lista"></ul>
     `;
 
-    // Escuchamos el evento de input-range en el window
+    // Detectar y manejar eventos de cambio en los controles de tipo range en toda la ventana
     window.addEventListener("rango-seleccionado", (e) => {
       const inicio = e.detail.inicio;
       const fin = e.detail.fin;
@@ -78,9 +78,9 @@ class ParImparLista extends HTMLElement {
       const elemento = document.createElement("li");
       let tipo;
       if (numero % 2 === 0) {
-        tipo = "Par";
+        tipo = "PAR";
       } else {
-        tipo = "Impar";
+        tipo = "IMPAR";
       }
 
       elemento.textContent = numero + " - " + tipo;

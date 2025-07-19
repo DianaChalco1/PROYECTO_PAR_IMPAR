@@ -15,7 +15,7 @@ class InputRange extends HTMLElement {
           display: block; 
           font-family: "Poppins", sans-serif;
           padding: 1.5rem;
-          border: 1px solid #d0d7de;
+          border: 1px solid #9fb5cbff;
           border-radius: 12px;
           max-width: 320px;
           margin: 2rem auto; 
@@ -37,14 +37,14 @@ class InputRange extends HTMLElement {
           align-items: center;
           margin-bottom: 1rem;
           font-weight: 500;
-          color: #374151;
+          color: #364a69ff;
         }
 
         /* Estilos para los inputs */
         input[type="number"] {
           width: 100px; 
           padding: 0.5rem;
-          border: 1px solid #cbd5e1;
+          border: 1px solid #a6b8cfff;
           border-radius: 6px;
           font-size: 1rem;
           text-align: center;
