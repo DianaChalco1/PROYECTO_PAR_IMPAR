@@ -1,1 +1,0 @@
-# PRY_PAR_IMPAR_WC
